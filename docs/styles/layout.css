@@ -60,7 +60,7 @@ ul{
 .uvod__banner img{
     display: block;
     max-width: 100vw;
-
+    max-height: 70vh;
     padding: 5vh 0 0 0;
     margin-bottom: -70vh;
 
@@ -152,4 +152,63 @@ footer{
     text-align: center;
 
 
+}
+
+
+.big_image{
+
+    display: none;
+
+}
+
+
+@media (min-width: 600px) {
+
+    .big_image{
+
+        display: unset;
+    
+    }
+    .sekce{
+
+        display: grid;
+        grid-gap: 50px;
+    }
+
+    .info{
+
+        grid-template-columns: 1fr 3fr;
+
+    }
+
+    .svetle_pivo{
+        grid-template-columns:  2fr 1fr;
+    }
+
+    .tmave_pivo{
+        grid-template-columns:  1fr 2fr;
+
+
+    }
+
+    .akce{
+
+        grid-template-columns:  1fr 1fr;
+
+    }
+
+
+
+    .pivo__ukazka{
+        max-width: 100%;
+
+
+    }
+
+    .sekce__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
 }
