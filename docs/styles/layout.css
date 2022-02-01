@@ -129,6 +129,7 @@ footer{
     background-color: var(--dark2);
     padding: 1em 0 0 0;
     color: var(--dark1);
+
 }
 
 
@@ -141,7 +142,7 @@ footer{
 }
 
 .footer__social_sites li{
-
+   
     font-size: 30px;
 
 
@@ -155,6 +156,7 @@ footer{
 }
 
 
+
 .big_image{
 
     display: none;
@@ -163,10 +165,11 @@ footer{
 
 
 @media (min-width: 600px) {
-
+    
     .big_image{
 
-        display: unset;
+        display: flex;
+        justify-content: center;
     
     }
     .sekce{
@@ -211,4 +214,18 @@ footer{
         justify-content: center;
         
     }
-}
+
+    .footer__social_sites{
+    padding: 0 20vw ;
+    }
+
+
+}   
+@media (min-width: 880px) {
+
+.sekce{
+        padding: 1em 20vw;
+
+    }
+
+    }
