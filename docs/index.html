@@ -40,7 +40,10 @@
             <div class="uvod__nakup">
                 <h2 class="nakup__slogan">Zajdem na iedno?</h2>
                 <div class="nakup__obchod">
-                    <a class="obchod__odkaz" href="">
+                    <a class="obchod__odkaz" href="" onclick="gtag('event', 'click-koupit', {
+            'event_category': 'order',
+            'event_label': 'landing-page'
+        })">
                         Koupit
                     </a>
                 </div>
